@@ -1,70 +1,58 @@
-# 📚 Projeto Reading Journal PUC-RS.
+📚 Reading Journal Project – PUCRS
+This project is an application for a CRUD Reading Journal. It was developed as part of the Frontend Systems Development course in the Online Undergraduate Program at PUCRS, using React.
 
-Este projeto é uma aplicação para um CRUD de um Reading Journal. Este projeto foi elaborado na Disciplina Desenvolvimento de Sistemas Frontend do Curso de Graduação Online da PUCRS e foi desenvolvido usando **React**.
+🚀 Technologies Used
+React
 
----
+Tailwind CSS
 
-## 🚀 Tecnologias Utilizadas
+Axios
 
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Axios](https://axios-http.com/)
-- [Material UI (MUI)](https://mui.com/)
-- [React Router DOM](https://reactrouter.com/)
-- [Vitest](https://vitest.dev/)
+Material UI (MUI)
 
----
-💻 Como rodar a aplicação React
+React Router DOM
 
-- Na raiz do seu projeto (onde está o package.json do app React), execute:
+Vitest
 
--- npm install
--- npm run dev
+💻 How to Run the React Application
 
-✍️ Funcionalidades
-✅ Cadastro de novos livros
+In the root folder of your project (where the package.json file is located), run:
 
-✏️ Edição de livros existentes
+npm install
 
-❌ Exclusão de livros
+npm run dev
 
-📋 Listagem de todos os livros cadastrados
+✍️ Features
 
-💬 Feedback visual após ações
+✅ Register new books
+✏️ Edit existing books
+❌ Delete books
+📋 List all registered books
+💬 Visual feedback after actions
 
+The application consumes data from a local API, which must also be running for the system to work correctly.
 
-**A aplicação consome dados de uma API local, que também precisa estar rodando para que o sistema funcione corretamente.**
+📦 Cloning the Project and Running the API
+Clone the API repository:
+git clone https://github.com/adsPucrsOnline/DesenvolvimentoFrontend/
 
+Navigate to the API folder:
+cd ./DesenvolvimentoFrontend/readingJournal-api/
 
-## 📦 Clonando o Projeto e Executando a API
+Install the API dependencies:
+npm install
 
-1. Clone o repositório da API
+Start the API server:
+npm start
 
--- git clone https://github.com/adsPucrsOnline/DesenvolvimentoFrontend/
+The API will be available at: http://localhost:5000/books
 
-2. Entre na pasta da API
+🧪 Running Tests
 
--- cd ./DesenvolvimentoFrontend/readingJournal-api/
+This project uses Vitest for unit testing.
 
-3. Instale as dependências da API
+To run tests via terminal:
+npm run test
 
--- npm install
-
-4. Inicie o servidor da API
-
--- npm start
-
-**A API estará disponível em: http://localhost:5000/books**
-
-🧪 Rodando os Testes
-
--- Este projeto usa Vitest para testes unitários.
-
-1. Execute os testes no terminal:
-
--- npm run test
-
-2. Ou use o modo visual (com interface):
-
--- npm run test:ui
-
+Or use the visual test interface:
+npm run test:ui
